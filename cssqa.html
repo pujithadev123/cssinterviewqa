@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 20px;
+            background-color: pink;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            background-color:lightblue;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>INTERVIEW QUESTIONS ON CSS</h2>
+
+    <details>
+        <summary>what is css?why do we use it?</summary>
+        <p>CSS stands for casecading style sheet.It used to give the styles to Html document or website or webpage.</p>
+    </details>
+   
+    <details>
+        <summary>In how many ways can we create css styling?What are they?</summary>
+        <p>We can apply styles to the html document in 3 ways . <br>They are: <br>1.Inline css <br>2.Internal css <br> 3.External css </p>
+    </details>
+
+    <details>
+        <summary>Difference b/w 3 ways of css styling?</summary>
+        <p>In Inline css we can give styles to the particular element by using style attribute.In internal css we can give styles to the particular element  in style tag .In External css, we can create one external file and saved as filename.css.That file is attached to the html document by using link tag,after that we can apply styles to the particular element by using external css file.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is specificity among the ways of css styling?</summary>
+        <p>Inline css has high  specificity when compared to internal and external .Internal css is high specificity when compared to external css. </p>
+       
+    </details>
+
+    <details>
+        <summary>What is the syntax of css?</summary>
+         <p>Selector{
+            <br> property:value;<br>
+            }</p>
+    </details>
+
+    <details>
+        <summary>What is a selector?</summary>
+        <p>Selector is select the element what we want to style.</p>
+       
+    </details>
+
+    <details>
+        <summary>How many types of selectors?</summary>
+        <p>We have 5 types of selectors. <br>They are : <br> 1.Simple selector <br> 2.Combinator Selector. <br> 3.Pseudo-Class Selector <br> 4.Pseudo-elements Selector <br> 5.Attribute Selector.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are the general selectors?</summary>
+        <p>General Selector is also known as simple selector. It used to select the elements based on name,id,class.In which we have 5 types of selectors. <br> They are: <br>
+            1.Class selector(It will accessed by .) <br>
+            2.Id selector(It will accessed by #) <br>
+            3.Element Selector <br>
+            4.Universal Selector(*) <br>
+            5.Grouping Selector.
+
+        </p>
+       
+    </details>
+
+    <details>
+        <summary>What is difference b/w the pseudo class vs pseudo element?</summary>
+        <p>Pseduo classes are used to give styles based on their states(focusing,active) and it is denoted by single colon.Where as pseduo elements are used to give styles to the specific part of the element.It is denoted by double colon.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is the rule set?</summary>
+        <p>A CSS rule set defines how to style elements. It consists of:1. Selector: Specifies which HTML element(s) to style.
+            2.Declaration Block: Contains the styles to apply, made of: <br>
+            Property: The aspect to style (e.g., color, font-size). <br>
+            Value: The value for the property (e.g., red, 16px)</p>
+       
+    </details>
+
+    <details>
+        <summary>What is box-modal?</summary>
+        <p>Box model is a container or box.It will wrap the multiple contents.In html every element has their own box model properties.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are the box-modal properties?</summary>
+        <p>In box-model We have 4 properties. <br>They are: <br>
+        1.Content <br> 2.Padding <br> 3.Border <br> 4.Margin</p>
+       
+    </details>
+
+    <details>
+        <summary>What is the difference b/w padding and margin?</summary>
+        <p>Padding is used to give the space between content and border.Where as margin is used to give space outside of the border.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is difference b/w outline and border? </summary>
+       <p>An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".A border that goes around the padding and content.</p>
+    </details>
+
+    <details>
+        <summary>Types of colors we have in css?</summary>
+        <p>We have 6 types of colors in css. <br> They are : <br>
+        1.direct color(color:red) <br>
+        2.rgb(red,green,blue) <br>
+        3.rgba(red,green,blue,opacity) <br>
+        4.hexa(# A-F,a-f,0-9) <br>
+        5.hsl(hue,saturation,lightness) <br>
+        6.hsla color.
+    </p>
+       
+    </details>
+
+    <details>
+        <summary>What is opacity?</summary>
+        <p>Transperancy of the element is called opacity.The value is 0-1.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are shadows in css and how many are they? </summary>
+        <p>Reflection of the box and text and image is called shadows.We have 3 types of shadows. <br> They are:<br>
+        1.Text shadow. <br>
+        2.Box shadow. <br>
+        3.Drop shadow.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are gradients in css and how many are they?</summary>
+        <p>Combination of two or more colors is called Gradients.Here we have 3 types of gradients. <br> They are  <br>
+         1.Linear Gradient.  <br>
+         2.Radial Gradient.  <br>
+         3.Conic Gradient.
+        </p>
+       
+    </details>
+
+    <details>
+        <summary>What is the difference b/w display and float? </summary>
+        <p> Display property is used to display the elements in webpage/website. float property is used to float the elements in webpage/website.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is difference b/w the display:inline vs display:block vs display:inline-block?</summary>
+        <p>display:inline property is used to convert block level element into inline level element.display:block property is used to convert inline level element into block level element Where as display:inline-block property is used to convert inline to block and here we can add margin top and bottom to that element.Generally to inline element margin is not worked if we use display:inline-block then only it will be worked.</p>
+       
+    </details>
+
+    <details>
+        <summary>what is difference b/w the visibility:hidden and display:none?</summary>
+        <p> By using visibility:hidden we can hide the content and here it will space also. By using display:none we can remove the content from webpage and it will not give any space.</p>
+       
+    </details>
+
+    <details>
+        <summary>what is object-fit ? and in how  many types can we fit the object?</summary>
+        <p>object-fit is used to fit the content in container.We can fit the object in 4 types. <br> They are :  <br>
+        1.object-fit:contain(over all content is zoom-in) <br>
+        2.object-fit:cover(content placed in center) <br>
+        3.object-fit:fill (totally filled) <br>
+        4.object-fit:none(heavily zoomed)</p>
+       
+    </details>
+
+    <details>
+        <summary>What is background property? what are the properties of background do you know?</summary>
+        <p> Background property is used to give styles of the background.Here we have some background properties.Such as background-color,background-image,background-size,background-position,background-repeat.</p>
+       
+    </details>
+
+    <details>
+        <summary>what is the position property?</summary>
+        <p>position property is used to positioning the elements in the document.</p>
+       
+    </details>
+
+    <details>
+        <summary>Types of position values we can give?</summary>
+        <p>we have 5 types of position values.  <br>They are: <br>
+        1.position:static <br>
+        2.position:fixed <br>
+        3.position:sticky <br>
+        4.position:absolute <br>
+        5.position:relative </p>
+       
+    </details>
+
+    <details>
+        <summary>what is difference b/w the position:sticky and position:fixed? </summary>
+ <p>position: sticky: Sticks to a position within its container when you scroll to it, then moves with the container.position: fixed: Stays in a fixed position on the screen, regardless of scrolling, and does not move with its parent.</p>
+       
+    </details>
+
+    <details>
+        <summary>what is difference b/w the position:relative and position:absolute? </summary>
+        <p>position:relative:The element is positioned relative to its normal position.A relative position moves the element, but still consumes some space in the original position.  position:absolute:the element is positioned absolutely to its first positioned parent.An absolute or fixed position moves the element, but does not consume any layout space.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is overflowing in css?</summary>
+        <p>overflow property is used to control the overflowed content(content,image).</p>
+       
+    </details>
+
+    <details>
+        <summary>What is z-index in css? default value of z-index?</summary>
+        <p>To maintain the stack order of the element in vertical direction or vertical alignment of the element.Default value is Z-index:0.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is a clear property?</summary>
+        <p>The clear property in CSS is used to control the behavior of floating elements. It specifies whether an element can be next to floated elements or should be moved below them.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are the css variables?</summary>
+        <p>CSS variables are used to create and reuse through out the style sheet.It helps us to maintain the code in globally.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is :root in css? </summary>
+        <p>In CSS variables, :root is used to define global variables (custom properties) that can be accessed anywhere in the stylesheet or we can reused throught the stylesheet.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are text properties?</summary>
+        <p>Text property is used to give styles to the text.we have some text properties like.text-align:center,text-align:left,text-align:right,text-transform:uppercase,text-decoration:none. </p>
+       
+    </details>
+
+    <details>
+        <summary>What are the font -properties?</summary>
+        <p>We have some font-properties.They are font-weight,font-style,font-family,font-size.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is a flex box in css? </summary>
+        <p>flex is a single dimensional layout .We can align the elements in horizental direction or vertical direction.</p>
+       
+    </details>
+
+    <details>
+        <summary>What is a grid layout system?</summary>
+        <p>Grid is a 2D layout and we can align the elements in horizental direction and vertical direction. </p>
+       
+    </details>
+
+    <details>
+        <summary>Difference b/w the flex vs grid?</summary>
+        <p>Grid is a 2D layout and we can align the elements in horizental direction and vertical direction.It's default direction is column.flex is a single dimensional layout .We can align the elements in horizental direction or vertical direction.It's default direction is row.</p>
+        
+       
+    </details>
+
+    <details>
+        <summary>What are media queries in css? why do we need to use them?</summary>
+        <p>Every website is fited to any device(mobile,tablet,laptop,large laptop,4k screens) according to the device width ,then it is called  media queries .It is a powerful tool to make a website responsive. </p>
+       
+    </details>
+
+    <details>
+        <summary>What are transitions in css?</summary>
+        <p>Transition is allows you to change css property values smoothly over a specified durarion.</p>
+       
+    </details>
+
+    <details>
+        <summary>What are the transforms in css?</summary>
+        <p>Transforms are used to change the form,appearance or structure of an element.It allows you to move,rotate,scale and skew elements.</p>
+       
+    </details>
+
+    <details>
+        <summary>How can you center a div?</summary>
+        <p>We can center a div in the below ways.we can use display:grid,place-items:center for getting element as center.By using display:flex,justify-content:center,align-items:center we can make an element as center and we can use margin and padding also for this purpose.</p>
+       
+    </details>
+
+    <details>
+        <summary>what is difference b/w the transitions  vs transforms vs animations?</summary>
+        <p>Transition is allows you to change css property values smoothly over a specified durarion.Transforms are used to change the form,appearance or structure of an element.It allows you to move,rotate,scale and skew elements.Where as animations are gradually change from one style to another and we must specify some keyframes for the animation.Keyframes are used to control the motion of element.</p>
+        
+       
+    </details>
+
+    <details>
+        <summary>What is a matrix in transforms?</summary>
+        <p>In CSS transform, the matrix() function allows you to apply a 2D transformation by combining multiple transformations (like scaling, rotating, translating, and skewing) into a single function.</p>
+       
+    </details>
+
+    <details>
+        <summary>Difference b/w css and css3?</summary>
+        <p>CSS: The original version, used for basic styling (colors, fonts, margins, etc.). CSS3: An updated version with new features like animations, transitions, gradients, media queries, and more. CSS3 is an enhanced version of CSS with advanced styling capabilities for modern web design.</p>
+       
+    </details>
+
+</body>
+</html>
